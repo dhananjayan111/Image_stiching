@@ -4,10 +4,9 @@ project_submission
 In panorama.py
 1. Compute the sift-key points and descriptors for left and right images.
 2. Compute distances between every descriptor in one image and every descriptor in the other image.
-3. Select the top best matches for each descriptor of an image.
-4. Run RANSAC to estimate homography.
-5. Warp to align for stitching.
-6. Finally stitch them together.
+3. Run RANSAC to estimate homography.
+4. Warp to align for stitching.
+5. Finally stitch them together.
 
 In final.ipynb
 1. imported video and converted it into frames and stored it in a folder.
